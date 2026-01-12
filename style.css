@@ -20,7 +20,7 @@ header nav img{
 header nav a{
     text-decoration: none;
     color: #000000;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 16px;
 }
 
@@ -44,22 +44,26 @@ nav button{
     cursor: pointer;
 }
 
+/*Hero Section*/
+#hero{
+    padding-bottom: 100px;
+}
+
 #hero .hero-content{
-    background-image: url(/assets/hero-bg.png);
+    background-image: url(assets/hero-bg.png);
     max-width: 1600px;
     max-height: 674px;
     background-repeat: no-repeat;
-    background-position: center;
 }
 #hero .hero-content .content-div{
     align-items: center;
     text-align: center;
-    padding: 115.5px 120px 179.5px 120px;
+    padding: 115.5px 120px 79.5px 120px;
 }
 
 #hero .hero-content span{
     background-color: #FFFFFF;
-    padding: 8px 12px 8px 34px;
+    padding: 8px 12px;
     border-radius: 50px;
     font-size: 16px;
     font-weight: 500;
@@ -85,7 +89,7 @@ nav button{
     padding: 16px 295px 0px 295px;
     font-size: 18px;
     line-height: 24px;
-    font-weight: 400px;
+    font-weight: 400;
     color: #FFFFFF;
     margin-bottom: 32px;
 }
@@ -115,4 +119,65 @@ nav button{
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
+}
+
+/*Notes Section*/
+
+#notes{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0px 120px;
+    text-align: center;
+}
+
+#notes h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+}
+
+#notes p{
+    padding-top: 16px;
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+
+#notes .notes-card{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 44px;
+}
+
+#notes .notes-card .card{
+    max-width: 322px;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.notes-card .card-img{
+    margin: 0 auto;
+    height: 60px;
+    width: 60px;
+    background: #F95555;
+    color: #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#notes .notes-card .card h2{
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+}
+
+#notes .notes-card .card p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
 }
