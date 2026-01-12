@@ -181,3 +181,72 @@ nav button{
     color: #627382;
     line-height: 20px;
 }
+
+#second-brain{
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 120px;
+    text-align: center;
+}
+
+#second-brain .second-brain-content{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.second-brain-content .image-div img{
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 12px;
+}
+
+.second-brain-content .text-div{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.second-brain-content .text-div h3{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #469165;
+}
+
+.second-brain-content .text-div h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    width: 636px;
+    max-height: 116px;
+}
+
+.second-brain-content .text-div p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+.second-brain-content ul{
+    margin-top: 24px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.second-brain-content ul li img{
+    margin-right: 6px;
+    width: 20px;
+    height: 20px;
+}
+
+.second-brain-content ul li{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
