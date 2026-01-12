@@ -61,7 +61,7 @@ nav button{
     padding: 115.5px 120px 79.5px 120px;
 }
 
-#hero .hero-content span{
+#hero .hero-content .icon{
     background-color: #FFFFFF;
     padding: 8px 12px;
     border-radius: 50px;
@@ -106,6 +106,15 @@ nav button{
     font-size: 16px;
     cursor: pointer;
     margin-right: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero-content .primary span{
+    width: 20px;
+    height: 20px;
 }
 
 #hero .hero-content .secondary{
@@ -187,7 +196,7 @@ nav button{
 #second-brain{
     max-width: 1360px;
     margin: 0 auto;
-    padding: 120px;
+    padding: 120px 120px 0px 120px;
     text-align: center;
 }
 
@@ -256,7 +265,7 @@ nav button{
 /*Early Access Section*/
 
 #early-access{
-    margin: 0 auto;
+    margin: 120px;
     background-color: #F7F6F2;
     max-width: 1360px;
     display: flex;
@@ -321,4 +330,61 @@ nav button{
     font-size: 16px;
     color: #627382;
     line-height: 20px;
+}
+
+/*Footer Section*/
+
+footer{
+    margin: 0 auto;
+    padding: 120px 120px 30px 120px;
+    max-width: 1600px;
+    background: #001931;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+footer .social{
+    width: 100%;
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-around;
+    gap: 790px;
+}
+
+footer .footer-logo img{
+    max-width: 139px;
+    max-height: 60px;
+}
+
+.social .social-links p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.social .social-links ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 12px;
+}
+
+.social-links ul li a{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+footer .copyright{
+    border-top: 1px solid #000;
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
 }
